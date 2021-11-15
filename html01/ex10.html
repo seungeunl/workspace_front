@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ex10</title>
+    </head>
+
+    <body>
+        <form action="" method="get">
+            <label for="u-id">아이디</label> <!--라벨은 글자 눌러서 커서 들어가게!-->
+            <input type="text" id="u-id" name="uid" value="" placeholder="아이디를 입력하세요."> <br>
+
+            <label for="u-pw">패스워드</label>
+            <input type="password" id="u-pw" name="upw" value="" placeholder="패스워드를 입력하세요."><br>
+
+            <input type="file" name="ufile" value=""><br>
+
+            <label for="chk-book">독서</label> 
+            <input type="checkbox" id="chk-book" name="hobby" value="book" checked="checked"> <br>
+            <label for="chk-music">음악</label> 
+            <input type="checkbox" id="chk-music"name="hobby" value="music"> <br>
+            <label for="chk-trip">여행</label>
+            <input type="checkbox" id="chk-trip" name="hobby" value="trip" checked="checked"> <br>
+            <br>
+            <br>
+            <label for="chk-dog">개</label> 
+            <input type="checkbox" id="chk-dog" name="animal" value="dog"> <br>
+            <label for="chk-cat">고양이</label> 
+            <input type="checkbox" id="chk-cat"name="animal" value="cat"> <br>
+            <label for="chk-bird">새</label>
+            <input type="checkbox" id="chk-bird" name="animal" value="bird"> <br>
+
+            <br>
+            <label for="rdo-apple">사과</label>
+            <input type="radio" id="rdo-apple" name="fruit" value="apple" ><br>
+
+            <label for="rdo-grape">포도</label>
+            <input type="radio" id="rdo-grape" name="fruit" value="grape" checked="checked"><br>
+
+            <label for="rdo-orange">오렌지</label>
+            <input type="radio" id="rdo-orange" name="fruit" value="orange"><br>
+
+            <br>
+            <label for="rdo-jan">1월</label>
+            <input type="radio" id="rdo-jan" name="month" value="jan" ><br>
+
+            <label for="rdo-feb">2월</label>
+            <input type="radio" id="rdo-feb" name="month" value="feb" checked="checked"><br>
+
+            <label for="rdo-mar">3월</label>
+            <input type="radio" id="rdo-mar" name="month" value="mar"><br>
+
+            <br>
+
+            <select name="telecom">
+                <option value="" selected="selected">이동통신사를 선택해 주세요</option> 
+                <option value="sk">SKT</option>
+                <option value="kt">KTF</option>
+                <option value="lg">LG</option>
+                <option value="et">ETC</option>
+            </select>
+            
+            <br>
+            <textarea name="contents">안녕하세요 ㅇㅇㅇㅇ</textarea> <!-- 글 내용 줄 바꾸면 공백까지 인식함. 시작 위치 제대로 하려면 괄호 옆에 바짝 붙이기-->
+
+            <br>
+            <button type="submit">저장</button>
+
+            <!--추천하지 않음, 글씨밖에 못 넣음-->
+            <!-- <input type="button" value="저장">  -->
+        </form>
+
+
+
+        <!-- 
+        <input type="text"><br>
+        <input type="password"><br>
+        <input type="file"><br>
+        <input type="radio"><br>
+        <input type="checkbox"><br>
+        <input type="hidden"><br>
+        거의 여기까지만 쓰임. 나머지는 브라우저마다 차이 있음.
+        <input type="number"><br>
+        <input type="color"><br> 
+        -->
+    </body>
+</html>

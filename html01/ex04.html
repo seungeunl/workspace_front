@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+</head>
+    <body>
+        <p>목차</p>
+        <p>목차</p>
+        <ol>
+            <li><a href="./ex01.html">h1~h6태그</a> </li>
+            <li><a href="./ex02.html">p br hr strong em 태그</a></li>
+            <li><a href="./ex03.html">ol ul 태그</a></li>
+            <li><a href="./ex04.html">img a 태그</a></li>
+            <li><a href="./ex05.html">table tr td 태그</a></li>
+            <li><a href="./ex06.html">table 합치기</a></li>
+            <li><a href="./ex07.html">thead tbody tfoot</a></li>
+        </ol>
+        
+        <hr>
+
+        <h1> html 기본태그</h1>
+        <h2> 4. a img 태그</h2>
+        <img src="C:\javaStudy\workspace_front\html01\img\jung.jpg"> <!--절대경로-->
+        <!-- 속성값 나타낼 때에는 속성="" -->
+
+        <img src="\javaStudy\workspace_front\html01\img\jung.jpg">
+        
+        <img src="./img/jung.jpg"> <!--상대경로, 점은 나 자신(ex04) / 나보다 아래-->
+        <img src="./img/subimg/yoo.jpg">
+
+        <!-- 상대경로, 나보다 위에 있는 파일 경로는 점 두 개-->
+        <img src="../upimg/yoo.jpg">
+        <img src="../../upupimg/yoo.jpg" alt="유재석 사진">
+
+        <a href="./ex01.html" target="view">1번문서로이동 </a>
+        <a href="C:\javaStudy\workspace_front\html01\ex01.html">1번문서로이동 </a>
+        <a href="./ex02.html" target="view">2번문서로이동 </a>
+
+        <br>
+        <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png">
+
+        <br>
+        <a href="http://www.daum.net" target="_blank">
+            <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png">
+        </a>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*전체 공통*/
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, 
+h6, input, fieldset, legend, p, select, table, th, 
+td, tr, textarea, button, form {
+margin: 0; padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕", 돋움, 굴림;
+    font-size: 12px;
+}
+
+a:link{color:black; text-decoration: none;;}
+a:hover{color:black; text-decoration: none;;}
+a:visited{color:black; text-decoration: none;;}
+a:active{color:black; text-decoration: none;;}
+
+.f-xl {font-size: 20px;}
+.f-l {font-size: 16px;}
+.f-s {font-size: 10px;}
+.bold {font-weight: bold;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+ul, ol {list-style-type: none;}
+
+
+/*레이아웃*/
+#wrap {
+    width: 1000px;
+    margin: 0px auto;
+}
+#header {
+    /* background-color: blue; */
+    border-bottom: 1px solid #a6a6a6;
+}
+#nav {
+    /* background-color: green; */
+    border-bottom: 1px solid #a6a6a6;
+}
+#contents {
+    /* background-color: pink; */
+}
+#footer {
+    background-color: #dddddd;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+/*header*/
+
+#header>h1 {
+    float: left;
+    /* border: 1px black solid; */
+    margin: 10px 0px;
+    font-size: 35px;
+}
+
+#header>h1>a {
+    color: #79B30B;
+}
+
+#header>ul {
+    float: right;
+    /* border: 1px black solid; */
+    margin: 25px 0px 0px 0px;
+}
+
+#header>ul>li {
+    float: left;
+    /* border: 1px black solid; */
+    margin-left: 30px;
+}
+
+
+/*navi*/
+#nav>ul {
+    padding: 10px 0px;
+}
+#nav>ul>li {
+    float: left;
+    font-size: 20px;
+    width: 248px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+
+/*contents*/
+#contents>img {
+    margin: 40px 20px;
+    float: left;
+    width: 300px;
+}
+#contents>#greeting {
+    float: left;
+    margin: 40px 0px 0px 20px;
+}
+
+
+

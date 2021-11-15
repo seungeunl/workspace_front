@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+/* 게시판리스트 */
+
+/* 게시판글쓰기 */
+.form-group {
+    /* border: 1px solid black;  */
+    padding: 5px 0px 5px 0px;
+}
+
+#boardtype {
+    width: 200px;
+    height: 25px;
+}
+
+#title {
+    width: 700px;
+    height: 20px;
+}
+
+
+#password {
+    width: 200px;
+    height: 20px;
+}
+
+#ad-number {
+    width: 200px;
+    height: 20px;
+}
+
+#address {
+    width: 600px;
+    height: 20px;
+    margin: 4px 0px 0px 84px;
+}
+
+.form-text {
+    display: inline-block;
+    width: 80px;
+}
+
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#text-content {
+    width: 786px;
+    height: 400px;
+}
+
+.btn-area {
+    border-top: 1px solid black;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.btn {
+    width: 55px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+.btn:hover {
+    background-color: rgb(187, 183, 183);
+    border: 1px solid black;
+}
+
+/* 게시판보기 */
+
+
+/* 게시판수정 */
+
+
+/* 회원가입 */
+
+
+
+#id {
+    width: 200px;
+    height: 20px;
+}
+
+#name {
+    width: 200px;
+    height: 20px;
+}
+
+
+
